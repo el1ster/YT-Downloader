@@ -1,0 +1,37 @@
+/* Общий стиль для окна */
+QWidget {
+    background-color: #222; /* Темный фон */
+}
+
+/* Стиль для ввода URL */
+QLineEdit {
+    padding: 10px;
+    border: 1px solid #444; /* Серые границы */
+    border-radius: 5px; /* Округление углов */
+    background-color: #333; /* Темный фон поля */
+    color: #fff; /* Белый текст */
+}
+
+/* Стиль для меток */
+QLabel {
+    color: #ddd; /* Светло-серый текст */
+}
+
+/* Основной стиль для кнопок */
+QPushButton {
+    padding: 10px;
+    border: 1px solid #444; /* Серые границы */
+    border-radius: 5px; /* Округление углов */
+    background-color: #555; /* Серый фон кнопки */
+    color: #fff; /* Белый текст */
+}
+
+/* Стиль кнопки при наведении */
+QPushButton:hover {
+    background-color: #666; /* Светло-серый фон при наведении */
+}
+
+/* Стиль кнопки при нажатии */
+QPushButton:pressed {
+    background-color: #444; /* Темный фон при нажатии */
+}
